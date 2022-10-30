@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background-color: black;
 }
 
@@ -19,22 +19,39 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     background-color: black;
 }
 
-.flex-items-searchbox{
-    
+.flex-container-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: center; */
+    gap: 10px;
+    background-color: black;
+}
+
+.lgn-btn, .signUp-btn{
+    border-radius: 5px;
+    width: 55px;
+    height: 40px;
 }
 
 #searchInput{
     border-radius: 5px;
     width: 500px;
-    height: 30px;
+    height: 34px;
 }
 
 #logo{
     height: 30px;
+}
+
+.cart{
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 50px
 }
 
 .searchBtn svg{
@@ -43,4 +60,5 @@
 
 .searchBtn{
     background-color: #febd68;
+    border-radius: 5px;
 }

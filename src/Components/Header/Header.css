@@ -1,0 +1,7 @@
+.main{
+    height: 40vh;
+    border: 1px solid black;
+    background-image: url('https://m.media-amazon.com/images/I/61+3TJG6t-L._SX3000_.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}

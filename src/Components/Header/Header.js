@@ -1,9 +1,8 @@
-
-
+import './Header.css'
 function Header(){
     return(
-        <div>
-            Header
+        <div className="main">
+  
         </div>
     )
 }
